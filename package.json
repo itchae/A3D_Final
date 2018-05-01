@@ -1,0 +1,14 @@
+{
+	"name": "A3D Labwork 11-12",
+	"main": "index.html",
+	"window": {
+    "title": "A3D Labwork 11-12",
+    "toolbar": false,
+    "frame": true,
+    "width": 1280,
+    "height": 1024,
+    "position": "center",
+    "min_width": 800,
+    "min_height": 600
+  }
+}

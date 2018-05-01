@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Style/style.css" type="text/css" media="screen">
+  <!--<title>WebGL Skeleton</title>-->
+
+  <!-- Common scripts -->
+  <!-- ================= -->
+  <script src="Common/Vector.js" type="text/javascript"></script>
+  <script src="Common/Matrix.js" type="text/javascript"></script>
+  <script src="Common/webgl-debug.js" type="text/javascript"></script>
+  <script src="Common/Camera.js" type="text/javascript"></script>
+  <script src="Common/GenericExercise.js" type="text/javascript"></script>
+  <script src="Common/Scene.js" type="text/javascript"></script>
+  <script src="Common/AttributeEnum.js" type="text/javascript"></script>
+  <script src="Common/Util.js" type="text/javascript"></script>
+  <script src="Common/PointData.js" type="text/javascript"></script>
+  <script src="Common/RenderingTarget.js" type="text/javascript"></script>
+  <script src="Common/MultipleRenderingTarget.js" type="text/javascript"></script>
+  <script src="Common/Texture.js" type="text/javascript"></script>
+  <script src="Common/Video.js" type="text/javascript"></script>
+  <!-- Shaders come here -->
+  <script src="Shaders/Shader.js" type="text/javascript"></script>
+  <script src="Shaders/DefaultShader.js" type="text/javascript"></script>
+  <script src="Shaders/BoxShader1.js" type="text/javascript"></script>
+  <script src="Shaders/BoxShader2.js" type="text/javascript"></script>
+  <script src="Shaders/FragmentShader.js" type="text/javascript"></script>
+  <script src="Shaders/ParticlesFountainShader.js" type="text/javascript"></script>
+  <script src="Shaders/ParticleSphereShader.js" type="text/javascript"></script>
+  <!-- Geometric Objects come here -->
+  <script src="Objects/GenericObject.js" type="text/javascript"></script>
+  <script src="Objects/Box.js" type="text/javascript"></script>
+  <script src="Objects/Rectangle.js" type="text/javascript"></script>
+  <script src="Objects/Plane.js" type="text/javascript"></script>
+  <script src="Objects/Sphere.js" type="text/javascript"></script>
+  <script src="Objects/ParticlesFountain.js" type="text/javascript"></script>
+  <!-- ================= -->
+  <script src="Exercises/ExerciseParticleFountain.js" type="text/javascript"></script>
+  <script src="Exercises/ParticlesBuffer.js" type="text/javascript"></script>
+  <script src="Exercises/ExerciseParticles.js" type="text/javascript"></script>
+  <script src="Student/ExerciseCloth.js" type="text/javascript"></script>
+  <script src="webgl.js" type="text/javascript"></script>
+
+</head>
+
+</head>
+  <body onload="initGL()">
+    <div>
+      <canvas id="glCanvas">
+	       <p>Canvas unsupported: USE A DECENT browser, pal ...</p>
+      </canvas>
+      <div id="menu">
+      	<H2 id="h1-top"> Menu </H2>
+      	<input type="submit" id="animButton" value="Animate" class="button" onclick="startAnimation();" />
+      	<H2 id="h1-bottom"> </H2>
+      	<!-- Add the exercises here -->
+      	<H2 id="param-top">Params</H2>
+      	<!-- Put here the exercise's parameters -->
+      	<H2 id="param-bottom"> </H2>
+      	<p id="info" width="120px"></p>
+      </div>
+    </div>
+    <!--<video id="video">
+      Your browser doesn't appear to support the HTML5 <code>&lt;video&gt;</code> element.
+    </video>-->
+  </body>
+</html>
